@@ -1,0 +1,29 @@
+{
+  "name": "me-get-listed-nfts-by-owner",
+  "version": "1.0.0",
+  "description": "script helps get listed nfts on MagicEden by wallet/owner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crazy-Solana-Labs/me-get-listed-nfts-by-owner.git"
+  },
+  "keywords": [
+    "solana",
+    "magiceden"
+  ],
+  "author": "Andriy Zdrobylko (@andriyko314)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Crazy-Solana-Labs/me-get-listed-nfts-by-owner/issues"
+  },
+  "homepage": "https://github.com/Crazy-Solana-Labs/me-get-listed-nfts-by-owner#readme",
+  "dependencies": {
+    "@solana/web3.js": "^1.66.2",
+    "bn.js": "^5.2.1",
+    "borsh": "^0.7.0",
+    "bs58": "^5.0.0"
+  }
+}
